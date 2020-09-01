@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>488605734829-tfreokdblqt25vng0uj0j67i6l386ar8.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.488605734829-tfreokdblqt25vng0uj0j67i6l386ar8</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDLEbR217s9omRG4JqiG2C9s3BQ-b4SjMw</string>
+	<key>GCM_SENDER_ID</key>
+	<string>488605734829</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.question</string>
+	<key>PROJECT_ID</key>
+	<string>qqmobiapp-557f8</string>
+	<key>STORAGE_BUCKET</key>
+	<string>qqmobiapp-557f8.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:488605734829:ios:116aa5aea83b3432</string>
+	<key>DATABASE_URL</key>
+	<string>https://qqmobiapp-557f8.firebaseio.com</string>
+</dict>
+</plist>

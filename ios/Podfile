@@ -1,0 +1,58 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '9.0'
+
+target 'Question' do
+ 
+  rn_path = '../node_modules/react-native'
+# Pods for AppCenter
+  pod 'AppCenter/Crashes', '~> 2.2.0'
+  pod 'AppCenter/Analytics', '~> 2.2.0'
+  pod 'AppCenter/Push', '~> 2.2.0'
+  pod 'AppCenterReactNativeShared', '~> 2.2.0'
+
+platform :ios, '9.0'
+
+pod 'React', path: '../node_modules/react-native'
+pod 'react-native-webrtc', :path => '../node_modules/react-native-webrtc'
+
+
+pod 'yoga', path: '../node_modules/react-native/ReactCommon/yoga'
+pod 'RNFirebase', :path => '../node_modules/react-native-firebase/ios'
+pod 'Firebase/Firestore', '~> 6.3.0'
+pod 'Firebase/Storage', '~> 6.3.0'
+pod 'Firebase/Core', '~> 6.3.0'
+
+pod 'React', path: rn_path, subspecs: [
+'Core',
+'CxxBridge',
+'DevSupport',
+'RCTActionSheet',
+'RCTAnimation',
+'RCTGeolocation',
+'RCTImage',
+'RCTLinkingIOS',
+'RCTNetwork',
+'RCTSettings',
+'RCTText',
+'RCTVibration',
+'RCTWebSocket',
+]
+pod 'Folly', :podspec => "#{rn_path}/third-party-podspecs/Folly.podspec"
+pod 'DoubleConversion', :podspec => "#{rn_path}/third-party-podspecs/DoubleConversion.podspec"
+pod 'glog', :podspec => "#{rn_path}/third-party-podspecs/glog.podspec"
+
+pod 'react-native-netinfo', :path => '../node_modules/@react-native-community/netinfo'
+
+post_install do |installer|
+  rnfirebase = installer.pods_project.targets.find { |target| target.name == 'RNFirebase' }
+  rnfirebase.build_configurations.each do |config|
+    config.build_settings['HEADER_SEARCH_PATHS'] = '$(inherited) ${PODS_ROOT}/Headers/Public/**'
+  end
+end
+
+
+  # Pods for Question
+
+end
+
+

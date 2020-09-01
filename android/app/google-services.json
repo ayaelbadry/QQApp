@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "378088144779",
+    "firebase_url": "https://mobiqqapp.firebaseio.com",
+    "project_id": "mobiqqapp",
+    "storage_bucket": "mobiqqapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:378088144779:android:116aa5aea83b3432",
+        "android_client_info": {
+          "package_name": "com.question"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "378088144779-a5kdrnh8sc3rvsjb84a1i81b8o2j75cv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIiXMdqzTj507WVwHvus9sKimZMErSFEs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "378088144779-a5kdrnh8sc3rvsjb84a1i81b8o2j75cv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "378088144779-3dp59op4jsafikug4if19uca1qlm7tae.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.question"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
